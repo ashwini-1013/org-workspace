@@ -4,10 +4,19 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/org-application-e2e"
+      "path": "./apps/org-application"
     },
     {
-      "path": "./apps/org-application"
+      "path": "./libs/components"
+    },
+    {
+      "path": "./libs/ai-service"
+    },
+    {
+      "path": "./libs/database"
+    },
+    {
+      "path": "./libs/vector-service"
     }
   ]
 }
