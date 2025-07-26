@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nx serve org-application",
-    "build": "nx build org-application", 
+    "build": "nx build org-application",
     "start": "nx serve org-application",
     "ingest": "tsx scripts/ingest-csv-data.ts",
     "setup-db": "tsx scripts/setup-database.ts",
@@ -46,7 +46,7 @@
     "@nx/eslint-plugin": "21.3.2",
     "@nx/jest": "21.3.2",
     "@nx/js": "21.3.2",
-    "@nx/next": "21.3.2",
+    "@nx/next": "^21.3.2",
     "@nx/playwright": "21.3.2",
     "@nx/vite": "21.3.2",
     "@nx/web": "21.3.2",
