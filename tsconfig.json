@@ -7,9 +7,6 @@
       "path": "./apps/org-application"
     },
     {
-      "path": "./libs/components"
-    },
-    {
       "path": "./libs/ai-service"
     },
     {

@@ -2526,7 +2526,7 @@ export async function searchSongsByMetadata(
         params.push(tempo)
       }
 
-      const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : ""
+      // const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : ""
 
       // Use template literal with proper parameter substitution
       if (conditions.length === 0) {

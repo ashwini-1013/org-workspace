@@ -3,8 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@org-workspace/ai-service": ["libs/ai-service/src/index.ts"],
-      "@org-worspace/database": ["libs/database/src/index.ts"],
-      "@org-workspace/vector-service": ["libs/vector-service/src/index.ts"]
+      "@org-workspace/vector-service": ["libs/vector-service/src/index.ts"],
+      "@org-worspace/database": ["libs/database/src/index.ts"]
     },
     "composite": true,
     "declarationMap": true,
