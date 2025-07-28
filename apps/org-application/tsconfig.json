@@ -34,16 +34,17 @@
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
   "include": [
+    "../../dist/apps/org-application/.next/types/**/*.ts",
     "next-env.d.ts",
     "src/**/*.js",
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "../../dist/apps/org-application/.next/types/**/*.ts"
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-   "../../dist",
+    "../../dist",
     ".next",
     "**/*.spec.ts",
     "**/*.test.ts"

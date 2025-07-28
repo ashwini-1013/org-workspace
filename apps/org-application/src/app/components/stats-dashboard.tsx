@@ -49,25 +49,25 @@ export function StatsDashboard() {
       icon: Music,
       label: "Total Songs",
       value: stats.totalSongs.toLocaleString(),
-      color: "text-green-400",
+      color: "text-green-800",
     },
     {
       icon: Disc,
       label: "Genres",
       value: stats.totalGenres.toString(),
-      color: "text-blue-400",
+      color: "text-blue-800",
     },
     {
       icon: Users,
       label: "Artists",
       value: stats.totalArtists.toLocaleString(),
-      color: "text-purple-400",
+      color: "text-purple-800",
     },
     {
       icon: TrendingUp,
       label: "Database Health",
       value: "Excellent",
-      color: "text-orange-400",
+      color: "text-orange-800",
     },
   ]
 
@@ -84,7 +84,7 @@ export function StatsDashboard() {
           >
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-gray-400 text-sm">{stat.label}</p>
+                <p className="text-gray-800 text-sm">{stat.label}</p>
                 <p className={`text-2xl font-bold ${stat.color}`}>{stat.value}</p>
               </div>
               <stat.icon className={`w-8 h-8 ${stat.color}`} />

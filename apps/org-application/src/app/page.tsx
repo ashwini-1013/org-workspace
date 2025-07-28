@@ -39,11 +39,11 @@ export default function SongAssistantPage() {
   }
 
   const examplePrompts = [
-    "I want sad romantic songs with piano",
-    "Give me energetic rock music for working out",
-    "I need happy pop songs for dancing",
-    "Play some smooth R&B for dinner",
-    "Find me classic rock anthems",
+    "I want top 5 dark trap songs to listen",
+    "I want to listen to songs like troll under bridge",
+    "I want to listen to song like i'm in paris",
+    "I want songs like dreams",
+    "I want to listen to the killer pop music",
   ]
 
   return (
@@ -57,12 +57,12 @@ export default function SongAssistantPage() {
         >
           <div className="flex items-center justify-center gap-3 mb-4">
             <Music className="w-8 h-8 text-green-500" />
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold bg-gradient-to-r from-green-700 to-green-500 bg-clip-text text-transparent">
               AI Song Recommender
             </h1>
             <Sparkles className="w-8 h-8 text-green-500" />
           </div>
-          <p className="text-gray-400 text-lg">Describe your mood, and let AI find the perfect song for you</p>
+          <p className="text-gray-800 text-lg">Describe your mood, and let AI find the perfect song for you</p>
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
@@ -111,7 +111,7 @@ export default function SongAssistantPage() {
                     onClick={() => setPrompt(example)}
                     className="text-left p-3 bg-[#121212] rounded-lg border border-gray-700 hover:border-green-500/50 transition-colors text-sm text-gray-300 hover:text-white"
                   >
-                   `${example}`
+                   {example}
                   </button>
                 ))}
               </div>
