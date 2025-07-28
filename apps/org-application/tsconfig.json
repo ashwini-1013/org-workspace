@@ -34,36 +34,29 @@
     "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
   },
   "include": [
-    "../../apps/org-application/.next/types/**/*.ts",
-    "../../dist/apps/org-application/.next/types/**/*.ts",
     "next-env.d.ts",
     "src/**/*.js",
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    ".next/types/**/*.ts"
+    "../../dist/apps/org-application/.next/types/**/*.ts"
   ],
   "exclude": [
-    "out-tsc",
-    "dist",
     "node_modules",
-    "jest.config.ts",
-    "src/**/*.spec.ts",
-    "src/**/*.test.ts",
+   "../../dist",
     ".next",
-    "eslint.config.js",
-    "eslint.config.cjs",
-    "eslint.config.mjs"
+    "**/*.spec.ts",
+    "**/*.test.ts"
   ],
   "references": [
     {
-      "path": "../../libs/ai-service",
+      "path": "../../libs/ai-service"
     },
     {
-      "path": "../../libs/database",
+      "path": "../../libs/database"
     },
     {
-      "path": "../../libs/vector-service",
+      "path": "../../libs/vector-service"
     }
   ]
 }

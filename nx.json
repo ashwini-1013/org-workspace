@@ -75,5 +75,9 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "projects": {
+  "org-application": "apps/org-application"
+}
+
 }
