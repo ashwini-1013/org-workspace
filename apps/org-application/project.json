@@ -7,7 +7,14 @@
       "executor": "@nx/next:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/org-application"
+        "outputPath": "dist/apps/org-application",
+        "assets": [
+          {
+            "input": "apps/org-application/public",
+            "glob": "**/*",
+            "output": "public"
+          }
+        ]
       }
     },
     "serve": {
